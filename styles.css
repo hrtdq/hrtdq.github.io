@@ -1,0 +1,163 @@
+body, html {  
+    margin: 0;  
+    padding: 0;  
+    font-family: Arial, sans-serif;  
+    background-color: black; 
+}  
+
+.container {  
+    display: flex;  
+    flex-direction: column;  
+}  
+  
+nav {  
+    background-color: #333;  
+    padding: 10px 0;  
+    text-align: center;  
+}  
+  
+nav ul {  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+}  
+  
+nav ul li {  
+    display: inline;  
+    margin: 0 15px;  
+}  
+  
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+    font-size: 16px;  
+}  
+  
+.content {  
+    padding: 20px;  
+}  
+
+section {  
+    margin-bottom: 20px;  
+}  
+  
+
+/* 响应式设计 */  
+@media (min-width: 768px) {  
+    .container {  
+        flex-direction: row;  
+    }  
+  
+    nav {  
+        width: 20%;  
+        position: fixed;  
+        height: 100vh;  
+        overflow-y: auto;  
+    }  
+  
+    .content {  
+        width: 80%;  
+        margin-left: 20%;  
+    }  
+      .questions {
+        font-size: 50px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+        font-weight: bold;
+        padding-top: 100px; 
+        padding: 50px;
+        /* margin-top: 10px; */
+    }
+
+    .ans {
+        font-size: 30px;
+        color: rgb(189, 140, 246);
+        padding: 100px;
+    } 
+
+    nav ul {  
+        padding: 20px 0;  
+    }  
+  
+    nav ul li {  
+        display: block;  
+        margin: 10px 0;  
+    } 
+
+    .employee {
+        color: white;
+        padding-top: 50px;
+        padding-left: 50px;
+      } 
+    .come{
+        color: white;
+        font-size: 50px;
+        padding: 100px;
+    }
+    .happy{
+        color: rgb(111, 180, 230);
+        font-size: 50px;
+        padding: 100px;
+    }
+
+    .image-container img {  
+        max-width: 100%; /* 确保图片在小屏幕上也能完整显示 */  
+        margin-top: 10px; /* 与上方内容保持一定距离 */  
+        margin-bottom: 20px;
+    }  
+  
+}
+
+ 
+/* 添加小于768px的样式 */  
+@media (max-width: 767px) {  
+ 
+    /* nav ul li {  
+        display: block; 
+        margin: 10px 0;
+    }   */
+ 
+  
+    .image-container img {  
+        max-width: 100%; /* 确保图片在小屏幕上也能完整显示 */  
+        margin-top: 10px; /* 与上方内容保持一定距离 */  
+        margin-bottom: 20px;
+    }  
+  
+    .content {  
+        /* 可以添加一些特定的样式来优化小屏幕上的内容显示 */  
+    }  
+     .questions {
+        font-size: 25px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+        font-weight: bold;
+        padding-top: 50px; 
+        padding: 20px;
+        /* margin-top: 10px; */
+    }
+
+    .ans {
+        font-size: 20px;
+        color: rgb(189, 140, 246);
+        padding: 20px;
+    } 
+
+    .employee {
+        color: white;
+        padding-top: 25px;
+        padding-left: 25px;
+      }
+    .come{
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .happy{
+        color: rgb(111, 180, 230);
+        font-size: 20px;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>    
+<meta charset="UTF-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<title>HRT-D&E 电气组</title>    
+<link rel="stylesheet" href="styles.css">    
+<style>  
+    .content section {  
+        display: none; /* 默认隐藏所有内容部分 */  
+    }  
+    .content section.active {  
+        display: block; /* 显示激活的内容部分 */  
+    }  
+</style>  
+</head>    
+<body>    
+<div class="container">    
+    <nav>    
+        <ul>    
+            <li><a href="#about" onclick="showSection('about')">关于我们</a></li>           
+            <li><a href="#events" onclick="showSection('events')">精彩活动</a></li>
+            <li><a href="#good" onclick="showSection('good')">福利</a></li>
+            <li><a href="#team" onclick="showSection('team')">联系我们</a></li>    
+        </ul>    
+    </nav>    
+    <div class="content">    
+        <section id="about" class="active">    
+            <div class="q-a-container">  
+                <div class="questions">Q1:HRT-D&E是什么样的组织?</div>  
+                <div class="ans">&nbsp;&nbsp;&nbsp;&nbsp;哈尔滨工业大学电动&无人驾驶方程式赛车队(HRT-D&E),由原HRT电动方程式赛车队及HRT无人驾驶方程式赛车队于2019年12 月合并而成,是一支既具历史底蕴又具有年轻活力的车队。</div>  
+                <div class="image-container">  
+                    <img src="hrt1.jpg" alt="HRT1">  
+                    <img src="hrt2.jpg" alt="HRT2">  
+                </div>  
+                <div class="questions">Q2:电气组都负责哪些工作？</div>  
+                <div class="ans"><p>我们主要分为以下系统：1.嵌入式（无人电气系统、数采、BMS） 2.电驱电控 3.高压动力  4.安全回路 5.线束与电气布置</p> 
+                    <p>下面来分别介绍一下吧:</p>
+                    <p>1.安全回路:负责整车电气安全，核心是电路设计。用电子元件搭建模拟、数字电路，实现需要的功能。熟练运用嘉立创EDA(专业版)等软件进行PCB设计。简简单单的电阻电容在一方电路板上创造无限可能。</p>
+                    <p>2.电控：控制理论+汽车模型。主要研究电无人车驱动的控制策略，利用MATLAB-simulink进行控制系统的设计和开发，使车辆性能、稳定性更优。进行车辆状态估计，学习控制算法、基础的汽车理论知识。</p>
+                    <p>3.电驱：电机原理+能量回收。学习电机的基本原理，并学习使用电机控制器；在此基础上，学习及设计能量回收策略。</p>
+                    <p>4.嵌入式开发:基于 STM32 的软件和硬件开发，用于整车的多个系统，包括电子控制单元（ECU）、数据采集系统、遥控急停系统（RES）和紧急制动系统（EBS）无人转向以及用于行车制动的ESC。</p>
+                    <p>5.电池箱：自主设计制作动力电池箱，包括电芯位置布局、高压线束规划、电池管理系统BMS调试开发、电芯热仿真等。电池箱是赛车的心脏，为电机和低压系统提供能源，驱动赛车的能量全部来源于这里。近600V的电压不仅让赛车动力澎湃，也让电气组的每个人心潮澎湃。</p>
+                    <p>6.线束：线束是赛车电气系统的重要组成部分，它负责将赛车的各个电子元件和传感器连接起来，实现信息和能量的传递。线束组的设计和制作需要考虑赛车的安全性、可靠性、性能和美观等多方面的因素，是一项既有趣又有挑战的工作。</p>
+                </div>  
+                <div class="questions">Q3:来到电气组可以收获什么？</div>
+                <div class="ans">
+                    <p>1.能够掌握对一辆车控制策略的编写，学习相关控制算法。</p>
+                    <p>2.将学习到的数学知识（高等数学/概率论/线性代数/控制理论）运用到实践中，运用相关算法</p> 
+                    <p>3.掌握MATLAB-simulink等编程能力</p>
+                    <p>4.对于车辆的控制，需要结合车辆的运动模型，学习到汽车动力学相关知识。</p>
+                    <p>5.对于控制策略和电驱的研究，需要通过阅读论文，提高对控制策略的基本认识，能够培养论文学习能力及实践能力</p>
+                    <p>6.学习使用专业的线束设计软件，在三维空间中布置线束，生成线束的展平图，以及输出线束的清单和报告。</p>
+                    <p>7.学习STM32相关知识，熟练掌握Keil编程</p>
+                    <p>8.学习HTML,CSS,JS编程，实现web开发，设计各种风格的网站</p>
+                    <p>...</p>
+                    
+                </div>
+                <div class="questions">Q4:来到电气组需要哪些条件呢？</div>
+                    <div class="ans">
+                        <p>专业不限</p>
+                        <p>需要有一定的动手能力和耐心以及团队合作精神和责任感</p>
+                        <p>不怕能力平平，只需脚踏实地，勤勤恳恳</p>
+                    </div>
+                <div class="come">还在犹豫什么，快来快来，马上要变成全能型人才啦！</div>
+            </div>
+        </section> 
+
+        <section id="team">    
+            <div class="employee-grid"> 
+                <div class="come">有什么问题或想法，请联系学长学姐哦~</div>
+                <div class="employee">  
+                    <h3>赵金鑫</h3>  
+                    <p>职位：副队长</p>  
+                    <p>21级学长</p>  
+                </div>  
+                <div class="employee">  
+                    <h3>刘科良</h3>  
+                    <p>职位：组长</p>  
+                    <p>21级学长</p>  
+                </div>
+                <div class="employee">  
+                  <h3>曲天泽</h3>  
+                  <p>职位：技术总监</p>  
+                  <p>21级学长</p>           
+                </div> 
+                <div class="employee">   
+                  <p>职位：组长</p>  
+                  <p>21级学长</p>  
+                </div>
+                <div class="employee">  
+                    <h3>安全回路系统</h3>  
+                    <p>负责人：韩润，朱彬炜，徐子翔，张智嵘</p>  
+                    <p>联系方式：</p>
+                </div>
+                <div class="employee">  
+                    <h3>电驱电控系统</h3>  
+                    <p>负责人：</p>  
+                    <p>联系方式：</p>
+                </div>
+                <div class="employee">  
+                    <h3>嵌入式系统</h3>  
+                    <p>负责人：</p>  
+                    <p>联系方式：</p>
+                </div>
+                <div class="employee">  
+                    <h3>线束系统</h3>  
+                    <p>负责人：</p>  
+                    <p>联系方式：</p>
+                </div>
+                <div class="employee">  
+                    <h3>电池箱系统</h3>  
+                    <p>负责人：</p>  
+                    <p>联系方式：</p>
+                </div>
+            </div> 
+        </section>       
+        <section id="events">    
+            <div class="questions">这么优秀的队员，当然少不了丰富多彩的活动</div>
+            <div class="happy">&nbsp;&nbsp;&nbsp;&nbsp;山顶小讲堂，动人音乐会，互送祝福...每一项都趣味横生</div>
+            <div class="image-container">
+                <img src="teach.jpg" alt="teach">
+                <img src="sing.jpg" alt="sing">
+                <img src="bless.jpg" alt="bless">
+            </div>
+            <div class="come">还有更多有趣活动等你来探索！</div>
+
+        </section> 
+        <section id="good">
+            <div class="questions">独立工位<br>创新创业学分加分（修够指定学分才能毕业哦）<br>水果零食自取<br>学长学姐耐心指导<br>结交一大群志同道合的朋友<br>获得陪伴支持<br>...</div>
+            <div class="come">&nbsp;&nbsp;&nbsp;&nbsp;总之来了就一定不会失望！</div>
+        </section>      
+    </div>    
+</div>    
+  
+<script>  
+function showSection(id) {  
+    // 移除所有section的active类  
+    var sections = document.querySelectorAll('.content section');  
+    sections.forEach(function(section) {  
+        section.classList.remove('active');  
+    });  
+      
+    // 添加active类到被点击的section  
+    var selectedSection = document.getElementById(id);  
+    if (selectedSection) {  
+        selectedSection.classList.add('active');  
+    }  
+}  
+  
+// 页面加载时默认显示“关于我们”  
+window.onload = function() {  
+    showSection('about');  
+};  
+</script>  
+  
+</body>    
+</html>
