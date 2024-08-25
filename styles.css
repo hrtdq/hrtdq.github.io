@@ -65,15 +65,16 @@ section {
         font-family: 'Courier New', Courier, monospace;
         font-style: italic;
         font-weight: bold;
-        padding-top: 100px; 
-        padding: 50px;
+        padding-top: 50px; 
+        padding-bottom: 50px;
         /* margin-top: 10px; */
     }
 
     .ans {
         font-size: 30px;
-        color: rgb(189, 140, 246);
+        color: rgb(17, 114, 240);
         padding: 100px;
+        font-family: 'Courier New', Courier, monospace;
     } 
 
     nav ul {  
@@ -106,6 +107,17 @@ section {
         margin-top: 10px; /* 与上方内容保持一定距离 */  
         margin-bottom: 20px;
     }  
+
+    .nice {
+        color: rgb(113, 113, 113);
+        font-size: 20px; 
+    }
+
+    .tit {
+        color: rgb(111, 180, 230);
+        font-size: 50px;
+        padding: 10px;
+    }
   
 }
 
@@ -134,15 +146,16 @@ section {
         font-family: 'Courier New', Courier, monospace;
         font-style: italic;
         font-weight: bold;
-        padding-top: 50px; 
-        padding: 20px;
+        padding-top: 25px; 
+        padding-bottom: 25px;
         /* margin-top: 10px; */
     }
 
     .ans {
         font-size: 20px;
-        color: rgb(189, 140, 246);
-        padding: 20px;
+        color: rgb(17, 114, 240);
+        padding: 25px;
+        font-family: 'Courier New', Courier, monospace;
     } 
 
     .employee {
@@ -159,5 +172,15 @@ section {
         color: rgb(111, 180, 230);
         font-size: 20px;
         padding: 20px;
+    }
+    .nice {
+        color: rgb(113, 113, 113);
+        font-size: 10px; 
+    }
+    .tit {
+        color: rgb(111, 180, 230);
+        font-size: 25px;
+        padding: 10px;
+        font-family: 'Courier New', Courier, monospace;
     }
 }
