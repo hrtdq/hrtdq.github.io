@@ -8,6 +8,7 @@ body, html {
 .container {  
     display: flex;  
     flex-direction: column;  
+    font-size: 50px;
 }  
   
 nav {  
@@ -72,7 +73,7 @@ section {
 
     .ans {
         font-size: 30px;
-        color: rgb(17, 114, 240);
+        color: rgb(191, 237, 121);
         padding: 100px;
         font-family: 'Courier New', Courier, monospace;
     } 
@@ -90,11 +91,12 @@ section {
         color: white;
         padding-top: 50px;
         padding-left: 50px;
+        font-size: 30px;
       } 
     .come{
         color: white;
         font-size: 50px;
-        padding: 100px;
+        padding: 50px;
     }
     .happy{
         color: rgb(111, 180, 230);
@@ -117,7 +119,14 @@ section {
         color: rgb(111, 180, 230);
         font-size: 50px;
         padding: 10px;
-        font-family: 'Courier New', Courier, monospace;
+    }
+    .resp {
+        color: rgb(111, 180, 230);
+        font-size: 30px;
+    }
+    .color1{
+        color: red;
+        font-size: 50px;
     }
   
 }
@@ -154,7 +163,7 @@ section {
 
     .ans {
         font-size: 20px;
-        color: rgb(17, 114, 240);
+        color: rgb(191, 237, 121);
         padding: 25px;
         font-family: 'Courier New', Courier, monospace;
     } 
@@ -163,6 +172,7 @@ section {
         color: white;
         padding-top: 25px;
         padding-left: 25px;
+        font-size: 20px;
       }
     .come{
         color: white;
@@ -183,5 +193,13 @@ section {
         font-size: 25px;
         padding: 10px;
         font-family: 'Courier New', Courier, monospace;
+    }
+    .resp {
+        color: rgb(111, 180, 230);
+        font-size: 20px;
+    }
+    .color1{
+        color: red;
+        font-size: 25px;
     }
 }
