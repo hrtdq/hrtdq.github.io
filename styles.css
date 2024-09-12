@@ -13,19 +13,25 @@ body, html {
   
 nav {  
     background-color: #333;  
-    padding: 10px 0;  
     text-align: center;  
+    position: fixed; /* 固定定位 */
+    top: 0; /* 距离顶部0 */ 
+    width: 100%; /* 宽度100% */
+    z-index: 1000; /* 确保导航栏在最上层 */ 
+
 }  
   
 nav ul {  
     list-style: none;  
     padding: 0;  
     margin: 0;  
+    list-style-type: none;
+    overflow: hidden;
 }  
   
 nav ul li {  
     display: inline;  
-    margin: 0 15px;  
+    margin: 15px;  
 }  
   
 nav ul li a {  
@@ -33,6 +39,8 @@ nav ul li a {
     text-decoration: none;  
     font-size: 16px;  
 }  
+
+
   
 .content {  
     padding: 20px;  
@@ -46,7 +54,8 @@ section {
 /* 响应式设计 */  
 @media (min-width: 768px) {  
     .container {  
-        flex-direction: row;  
+        flex-direction: row; 
+        font-size: 50px; 
     }  
   
     nav {  
@@ -147,9 +156,11 @@ section {
         margin-bottom: 20px;
     }  
   
-    .content {  
-        /* 可以添加一些特定的样式来优化小屏幕上的内容显示 */  
+    .container {  
+        flex-direction: row; 
+        font-size: 20px; 
     }  
+
      .questions {
         font-size: 25px;
         color: white;
